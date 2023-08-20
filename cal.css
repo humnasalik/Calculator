@@ -1,0 +1,60 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cal{
+    padding: 10px;
+    background-color: rgb(65, 58, 58);
+    border-radius: 20px;
+    width: 400px;
+}
+input{
+    font-size: 30px;
+    font-weight: 700;
+    color: aliceblue;
+    background-color: gray;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 3px;
+    border:2pz solid black;
+}
+.screen{
+    background-color: aliceblue;
+    margin-bottom: 10px;
+    width: 350px;
+    color: black;
+    height: 65px;
+    text-align: right;
+}
+.class{
+    width: 90px;
+    height: 85px;
+}
+.class:hover{
+    cursor: pointer;
+    background-color:rgb(175, 170, 170);
+}
+.button{
+    width: 140px;
+    height: 85px;
+    background-color: rgb(238, 40, 40);
+}
+.button:hover{
+    cursor: pointer;
+    background-color: red;
+}
+#operator{
+    width: 90px;
+    height: 85px;
+    background-color: rgb(95, 158, 95);
+}
+#operator:hover,#plus:hover{
+    cursor: pointer;
+    background-color: rgb(124, 196, 124);
+}
+#plus{
+    background-color: rgb(95, 158, 95) ;
+}

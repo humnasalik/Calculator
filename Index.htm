@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <div class="container">
+        <div class="cal">
+            <form>
+                 <div>
+                    <input type="text" class="screen" id="display" name="display" readonly>
+                 </div>
+                 <div>
+                    <input type="button" value="AC" class="button" onclick="clearall()">
+                    <input type="button" value="+" class="button" id="plus" onclick="displayvalue('+')">
+                    <input type="button" value="^" class="class" id="operator" onclick="displayvalue('^')">
+                 </div>
+                 <div>
+                    <input type="button" value="9" class="class" onclick="displayvalue('9')">
+                    <input type="button" value="8" class="class" onclick="displayvalue('8')">
+                    <input type="button" value="7" class="class" onclick="displayvalue('7')">
+                    <input type="button" value="x" class="class" id="operator" onclick="displayvalue('x')">
+                 </div>
+                 <div>
+                    <input type="button" value="6" class="class" onclick="displayvalue('6')">
+                    <input type="button" value="5" class="class" onclick="displayvalue('5')">
+                    <input type="button" value="4" class="class" onclick="displayvalue('4')">
+                    <input type="button" value="/" class="class" id="operator" onclick="displayvalue('/')">
+                 </div>
+                 <div>
+                    <input type="button" value="3" class="class" onclick="displayvalue('3')">
+                    <input type="button" value="2" class="class" onclick="displayvalue('2')">
+                    <input type="button" value="1" class="class" onclick="displayvalue('1')">
+                    <input type="button" value="-" class="class" id="operator" onclick="displayvalue('-')">
+                 </div>
+                 <div>
+                    <input type="button" value="0" class="class" onclick="displayvalue('0')">
+                    <input type="button" value="00" class="class" onclick="displayvalue('00')">
+                    <input type="button" value="." class="class" onclick="displayvalue('.')">
+                    <input type="button" value="=" class="class" id="operator" onclick="calculate()">
+                 </div>
+            </form>
+        </div>
+    </div>
+    <script src="cal.js"></script>
+</body>
+</html>
